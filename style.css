@@ -1,0 +1,149 @@
+* {
+  font-family: 'Oswald';
+  color: #330000;
+  letter-spacing: 2px;
+  font-weight: 600px;
+  word-spacing: 2px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  bakground-color:;
+}
+#title, #title-info, .img-caption, #a-link, #second-header {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  background: #cccccc;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+#title {
+  font-size: 2.5em;
+  margin-bottom: 0;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+#title-info {
+  font-size: 1.3em;
+  font-style: italic;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+#img-div {
+  background: hsl(120, 100%, 87%);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-color: #C42DD2;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+}
+#img-caption {
+  padding-top: 5px;
+  padding-bottom: -4px;
+}
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+ul {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  text-align: justify;
+}
+li{
+  line-height: 40px;
+  font-weight: 500;
+}
+#second-header {
+  margin-top: 20px;
+}
+#line {
+  width: 30%;
+  height: 2px;
+  background-color: #330000;
+  border: 1px solid;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  
+}
+#a-link { 
+  text-align:center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+a {
+  font-style: italic;
+}
+@media all and (max-width: 600px) {
+  #img-div {
+    padding: 3px;
+  }
+  #tribute-info{
+    width: 80%;
+  }
+  #title {
+    font-size: 2em;
+  }
+}
+.about-us-container{
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+}
+.about-us-container h4 {
+    margin-top: 5px;
+    line-height: 30px;
+    padding: 20px 20px;
+    font-size: 16px;
+    color: #5d5d5d;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 70%);
+}
+.about-us-container p {
+    padding: 0 20px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.imgcontainer{
+  display:flex;
+  
+}
+#copyR{
+  text-align:right;
+}
+.portfolio-title h3 {
+    margin-top: 5px;
+    line-height: 30px;
+    padding: 20px 20px;
+    font-size: 16px;
+    color: #5d5d5d;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 70%);
+}
+
+@media all and (max-width: 320px){
+  * {
+    word-spacing: none;
+    letter-spacing: none;
+  }
+  #title {
+    font-size: 1.5em;
+  }
+  
+}
